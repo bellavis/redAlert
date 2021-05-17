@@ -22,8 +22,8 @@ headers = {
     'X-Requested-With': 'XMLHttpRequest',
 }
 while userInput != '-1':
-    userInput = input('Enter cities names to get alerts for (in Hebrew) and press "Enter"'
-                      '\nWhen you\'re done write "-1":')
+    userInput = input('----------------\nEnter cities names to get alerts for (in Hebrew) then press "Enter".'
+                      '\nWhen you\'re done - write "-1":')
     if userInput != '-1':
         area.insert(-1, userInput)
 
@@ -55,5 +55,5 @@ while True:
                 timeout=10
             )
         else:
-            print("Not in your list for alerts.")
+            print("Not in your list for alerts.\n----------------")
     time.sleep(15)
