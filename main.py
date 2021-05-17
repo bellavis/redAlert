@@ -8,7 +8,7 @@ from plyer import notification  # for getting notification on your PC
 
 #####################################################################
 # To change city:
-# go to line 22 and change the cities you desire to get an alert for
+# go to line 17 and change the default cities you would like to get an alert for
 #####################################################################
 
 resp = None
